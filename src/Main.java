@@ -1,6 +1,4 @@
-import javax.swing.*;
-import java.time.DayOfWeek;
-import java.time.LocalDate;
+
 
 //задача 1, 2!!!
 public class Main {
@@ -29,15 +27,15 @@ public class Main {
             if (month_1 % 6 == 0) { // вывод суммы накоплений каждый 6ой месяц
                 System.out.println("Месяц " + month_1 + ", сумма накоплений равняется: " + (int) deposit_1 + " рублям.");
             }
-
+        }
 
             //Задача 4!!!
-            for (int i = 5; i <= 31; i += 7) {
-                System.out.println("Сегодня пятница " + i + "-ое число. Пора сдавать отчет!");
-            }
-
-
+        for (int i = 5; i <= 31; i += 7) {
+            System.out.println("Сегодня пятница " + i + "-ое число. Пора сдавать отчет!");
         }
+
+
+
     }
 }
 
